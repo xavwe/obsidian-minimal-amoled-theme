@@ -16,10 +16,52 @@
 	--background-secondary: var(--color-base-05);
 	--titlebar-background: var(--color-base-00);
 	--titlebar-background-focused: var(--color-base-10);
+
+	/* link no text decoration */
+	--link-decoration: none;
+	--link-decoration-hover: none;
+	--link-external-decoration: none; 
+	--link-external-decoration-hover: none;
 }
 
+/* sidebar border width */
+.workspace-leaf-resize-handle {
+	border-width: 2px !important;
+}
 
-/*
-	No, seriously, that's as simple as it gets.
-	  - Sakura
-*/
+/* hide properties in reading mode */
+body {
+	--metadata-display-reading: none;
+}
+
+/* no bottom padding */
+.markdown-preview-section {
+	padding-bottom: 0px !important;
+}
+.cm-content {
+	padding-bottom: 0px !important;
+}
+
+/* hide tab bar */
+.workspace-tab-header-container {
+	display: none;
+}
+.mod-right {
+	display: none;
+}
+
+/* minimal sync icon */
+.status-bar {
+	padding-right: 4px !important;
+	border-style: none !important;
+}
+
+/* grey checkbox */
+.checkbox-container.is-enabled {
+    background-color: grey;
+}
+
+/* line numbers only in source mode */
+.is-live-preview .cm-gutters {
+    display: none;
+}
