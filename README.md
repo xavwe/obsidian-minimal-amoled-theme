@@ -1,5 +1,5 @@
-# Minimal Amoled Theme
-The **Minimal Amoled Theme** is a theme for [Obsidian](https://obsidian.md).
+# Minimal Nerdfont Theme
+The **Minimal Nerdfont Theme** is a theme for [Obsidian](https://obsidian.md).
 ## Installation
 ### Using BRAT plugin
 - use [BRAT](https://github.com/TfTHacker/obsidian42-brat) plugin
